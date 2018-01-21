@@ -11,7 +11,7 @@ public class Permutation {
 
         RandomizedQueue<String> rq = new RandomizedQueue<String>();
 
-        while(StdIn.readString() != )
+        String[] inptStrings = StdIn.readAllStrings();
 
         for (String str : inptStrings) {
             rq.enqueue(str);
@@ -19,7 +19,7 @@ public class Permutation {
 
         Iterator<String> iterator = rq.iterator();
 
-        while (k-- > 0) {
+        while (k-- >  0) {
             System.out.println(iterator.next());
         }
 
